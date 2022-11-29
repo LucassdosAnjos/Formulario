@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 450px;
+    height: 540px;
+    background-color: white;
+    border: 12px solid rgb(190, 188, 188);
+    border-radius: 15px;
+    
+}
+
+h1 {
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+.formulário {
+    margin: 20px;
+}
+
+span {
+    color: red;
+}
+
+input {
+    background-color: rgb(224, 221, 221);
+    border: 1px solid rgb(99, 96, 96);
+}
+
+.teste {
+    display: flex;
+}
+
+.lado2{
+    margin-left: 30px;
+}
+
+select {
+    background-color: rgb(224, 221, 221);
+    border: 1px solid rgb(99, 96, 96);
+    width: 170px;
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+}
+
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 380px;
+    height: 30px;
+    background: linear-gradient( #55f067, #1b5513);
+    border: 1px solid rgb(231, 233, 224);
+    color: white;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.login {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.alert {
+    font-size: 16px;
+    color: gray;
+}

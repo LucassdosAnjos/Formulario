@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas dos Anjos</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+ <body>
+    <div class="container">
+        <div class="form">
+            <h1>Formulário para cadastro de pessoa física</h1>
+                <div class="formulário"> 
+                 <form action="">
+                
+                    <label for="Nome">Nome: <span>*</span> </label> <br>
+
+                    <input id="Nome" type="text" size="50" name="Nome">
+                    <br> <br>
+                    <label for="Sobrenome">Sobrenome:</label> <br>
+                    <input id="Sobrenome" type="text" size="50" name="Sobrenome"> 
+                    <br><br>
+                    <label for="Email">Email: <span>*</span> </label> <br>
+                    <input id="Sobrenome" type="email" size="50" name="Email" pattern=".+@gmail\.com" 
+                    title="Somente emails gmail.com serão aceitos para o cadastro"> 
+                    <br><br>
+                    <div class="teste">
+                    <div class="lado1">
+                    
+                    
+                    <label for="">Estado:</label> <br>
+                    <select id="estado" name="estado">
+                        <option value=""></option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="EX">Estrangeiro</option>
+                    </select>
+                </div>
+                
+                <div class="lado2">
+                    <label for="cpf">CPF: <span>*</span> </label><br>
+                    <input size="21" type="text" id="cpf" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}\-[0-9]{1}">
+                </div>
+            </div>
+            <br> <br>
+            <div class="check">
+                <input type="checkbox" name="permissão" id="permissão">
+                <label for="permissão">Aceito os termos de <a href="./politica.html" target="_blank">política de proteção de dados</a> </label>
+            </div> <br><br>
+                <div class="botao">
+                     <button type="submit" >Cadastrar</button>
+                </div>
+                
+                <div class="login">
+                <h4>Já tem casdastro? <a href="">faça seu login</a> </h4>
+                </div>
+                <br>
+                <div class="alert">
+                    <h5>Campos obrigatórios <span>*</span> </h5>
+                </div>
+
+                </form>
+            </div>
+        </div>
+        
+    </div>
+ </body>
+</html>
+
+
+    <!--
+     <form action="">
+         <input type="number" min="2" max="5">
+         <button>Enviar</button>
+
+        </form>-->
+
+  <!--
+<form action="">
+    <label for="">Pesquisar pelo ID</label>
+    <input type="search" name="id"
+    pattern="[0-9]{2}"
+    autocomplete="none" title="Use números de 0-9 repetidos, exemplo 99, 00, 11." placeholder="Digite sua pesquisa aqui">
+    <button>Pesquisar</button>
+
+</form>
+
+   -->
+    <!--
+<label for="">Escolha um Pet para sua coleção:
+    <select name="pets">
+        <optgroup label="4-legged pets">
+            <option value="cat">Gato</option>
+            <option value="dog">Cachorro</option>
+            <option value="hamster">Hamster</option>
+        </optgroup>
+        <optgroup label="Flying pets">
+            <option value="pato">pato</option>
+            <option value="macaco">Macaco</option>
+            <option value="ganso">Ganso</option>
+        </optgroup>
+    </select>
+</label>
+
+-->
+<!--
+    <label for="carselec"></label>
+    <select name="carmodel" id="carselec" >
+    <option value="">Selecione o modelo</option>
+    <option value="Fiat">Uno</option>
+    <option value="Audi">A3</option>
+    <option value="BMW">X6</option>
+</select>
+-->
+<!--
+<fieldset>
+    <legend>Bora tomar um café?</legend>
+    <label for="yep">Sim</label>
+    <input type="radio" id="yep" name="coffee" value="yes">
+    <label for="nono">Não</label>
+    <input checked type="radio" type="radio" id="nono" name="coffee" value="nono"> 
+</fieldset>
+-->
+
+<!--
+    ,input type="file />"
+-->
+<!--
+    <input> Atributos comuns
+    - autocomplete
+    - autofocus
+    - disable
+    - readonly
+    - valeu
+    - form
+    - name
+-->
+
+
+
+<!--
+    Formulários
+
+Para que serve?
+- Capturar dados de entrada (input)
+- Interação
+- Controle
+-->
+<!--
+    <form>
+- Elementos que definirá um formulario
+- É um container estilo
+-->
+
+<!--
+    <label>e label e a tag de entrada de dados
+- é feita via id do input
+- só funciona com elemen
+- associar e identificar uma (ou mais) tag de entrada de dados
+- acessibilidade
+- você poderá clicar para mudar o foco da entrada de dados
+
+    Atributos
+- for
+- para fazer a conexão entre esttos específicos
+- button, input (not hidden), meter, output, progress, select, textarea
+-->
+
+<!--
+    <form action="" method="post">
+        <input type="text" value=>
+        <button type="reset">Limpar</button>
+    </form> -->
+
+<!--
+<input type="text"
+       list="fruitsdata" placeholder="Salada de fruta"/>
+<datalist id="fruitsdata">
+    <option>maçã</option>
+    <option>banana</option>
+    <option>manga</option>
+    <option>laranja</option>
+    <option>cereja</option>
+    <option>uva</option>
+    <option>morango</option>
+</datalist>
+-->
+
+<!--
+<form action="">
+    <fieldset> 
+        <legend>Contato</legend>
+        <label for="nome">Nome:</label> 
+        <input type="text" placeholder="Digite seu nome aqui">
+        <br><br>
+        <label for="cpf">CPF:</label>
+        <input type="text" placeholder="Digite seu CPF aqui"> 
+        <br><br>
+        <button type="reset">Apagar</button>
+    </fieldset>
+</form>
+
+<form action="">
+    <fieldset>
+        <legend>Contato</legend> <p>Nome:</p>
+        <p>CPF:</p>
+        <p>Endereço:</p>
+
+    </fieldset>
+</form>
+-->
+
+<!--   <form action="">
+         <fieldset>
+         <legend>Nome Completo</legend>
+                <label for="nome">Nome</label>
+                <input type="text" placeholder="Digite seu nome aqui" size="55px">
+                <br><br>
+                <label for="nome">C.P.F</label>
+                <input placeholder="Digite seu CPF aqui" oninput="mascara(this)" type="text">
+                <br><br>
+            </fieldset>
+            <br>
+        <fieldset>
+                <legend>Teste</legend>
+                <input type="text" list="selecao" placeholder="Escolha sua seleção">
+                <datalist id="selecao">
+                    <option value="Brasil"></option>
+                    <option value="Qatar"></option>
+                    <option value="Equador"></option>
+                    <option value="Argentina"></option>
+                    <option value="Alemanha"></option>
+            </datalist><br><br>
+                <button type="reset">Clear</button>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    
+        script src="/script.js"></script><
+    
+    
+--> 
+
+<!--
+    <input type="text" placeholder="Digite a placa do seu veículo padrão mercosul" pattern="[A-Za-z]{3}[0-9]{4}" size="36"> -->
