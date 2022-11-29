@@ -83,6 +83,11 @@ button {
     font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+button:hover {
+    background: linear-gradient( #88491f, #7c38bb);
+    border: 1px solid rgb(231, 233, 224);
+}
+
 h4 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
